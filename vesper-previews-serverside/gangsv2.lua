@@ -1,7 +1,7 @@
-// So sausage fingers and the muzzy want to use my shit, enjoy it for free :)
-// Gonna continue to happen with each dev-preview they put out
+-- So sausage fingers and the muzzy want to use my shit, enjoy it for free :)
+-- Gonna continue to happen with each dev-preview they put out
 
-// Gang logs with webhook
+-- Gang logs with webhook
 
 function addGangLog(name, id, date, action, actionValue)
     exports['ghmattimysql']:execute('SELECT * FROM arma_gangs', function(gotGangs)
@@ -40,7 +40,7 @@ function addGangLog(name, id, date, action, actionValue)
     end)
 end
 
-// Apply gang fit
+-- Apply gang fit
 
 RegisterServerEvent("ARMA:applyGangFit")
 AddEventHandler("ARMA:applyGangFit", function()
@@ -63,7 +63,7 @@ AddEventHandler("ARMA:applyGangFit", function()
     end)
 end)
 
-// Set gang fit
+-- Set gang fit
 
 RegisterServerEvent("ARMA:setGangFit")
 AddEventHandler("ARMA:setGangFit", function(gangid)
