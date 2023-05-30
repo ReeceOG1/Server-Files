@@ -194,24 +194,24 @@ ARMA.createConsoleCommand('convertlsc', function(source, args)
                             MySQL.asyncQuery("ARMA/InsertNewVehicleMod",{user_id = b.user_id, spawncode = b.vehicle, savekey = "mod_"..k, mod = v.mod})
                         end
                     end
-                    print("^5Converted mods of vehicle: "..b.vehicle.." for ID: "..b.user_id)
+                    print("^5Converted mods of vehicle: "..b.vehicle.." for ID: "..b.user_id.."^0")
                     -- Converts the security mods to new format
                     if modsTable.biometric == 1 then
                         MySQL.asyncQuery("ARMA/InsertNewVehicleMod",{user_id = b.user_id, spawncode = b.vehicle, savekey = "security", mod = "21"})
-                        print("^5Converted biometric of vehicle: "..b.vehicle.." for ID: "..b.user_id)
+                        print("^5Converted biometric of vehicle: "..b.vehicle.." for ID: "..b.user_id.."^0")
                     end
                     if modsTable.remoteblips == 1 then
                         MySQL.asyncQuery("ARMA/InsertNewVehicleMod",{user_id = b.user_id, spawncode = b.vehicle, savekey = "security_blips", mod = "11"})
-                        print("^5Converted remote blips of vehicle: "..b.vehicle.." for ID: "..b.user_id)
+                        print("^5Converted remote blips of vehicle: "..b.vehicle.." for ID: "..b.user_id.."^0")
                     end
                     if modsTable.dashcam == 1 then
                         MySQL.asyncQuery("ARMA/InsertNewVehicleMod",{user_id = b.user_id, spawncode = b.vehicle, savekey = "security_dashcam", mod = "1"})
-                        print("^5Converted dashcam of vehicle: "..b.vehicle.." for ID: "..b.user_id)
+                        print("^5Converted dashcam of vehicle: "..b.vehicle.." for ID: "..b.user_id.."^0")
                     end
                     -- Converts bulletproof tyres to new format
                     if modsTable.bulletProofTyres == 1 then
                         MySQL.asyncQuery("ARMA/InsertNewVehicleMod",{user_id = b.user_id, spawncode = b.vehicle, savekey = "bulletproof_tires", mod = "1"})
-                        print("^5Converted bulletproof tyres of vehicle: "..b.vehicle.." for ID: "..b.user_id)
+                        print("^5Converted bulletproof tyres of vehicle: "..b.vehicle.." for ID: "..b.user_id.."^0")
                     end
                     -- Converts primary colours to new format
                     if modsColour ~= nil then
@@ -225,7 +225,7 @@ ARMA.createConsoleCommand('convertlsc', function(source, args)
                                 end
                             end
                         end
-                        print("^5Converted primary and secondary colours of vehicle: "..b.vehicle.." for ID: "..b.user_id)
+                        print("^5Converted primary and secondary colours of vehicle: "..b.vehicle.." for ID: "..b.user_id.."^0")
                     end
                     -- Converts secondary colours to new format
                     if modsExtraColour ~= nil then
@@ -234,26 +234,26 @@ ARMA.createConsoleCommand('convertlsc', function(source, args)
                                 MySQL.asyncQuery("ARMA/InsertNewVehicleMod",{user_id = b.user_id, spawncode = b.vehicle, savekey = "wheelcolor", mod = modsExtraColour[2]})
                             end
                         end
-                        print("^5Converted wheel colour of vehicle: "..b.vehicle.." for ID: "..b.user_id)
+                        print("^5Converted wheel colour of vehicle: "..b.vehicle.." for ID: "..b.user_id.."^0")
                     end
                     -- Converts window tint to new format
                     if modsWindowTint ~= nil then
                         MySQL.asyncQuery("ARMA/InsertNewVehicleMod",{user_id = b.user_id, spawncode = b.vehicle, savekey = "windowtint", mod = modsWindowTint})
-                        print("^5Converted window tint of vehicle: "..b.vehicle.." for ID: "..b.user_id)
+                        print("^5Converted window tint of vehicle: "..b.vehicle.." for ID: "..b.user_id.."^0")
                     end
                     -- Converts plate index to new format
                     if modsPlateIndex ~= nil then
                         MySQL.asyncQuery("ARMA/InsertNewVehicleMod",{user_id = b.user_id, spawncode = b.vehicle, savekey = "plate_colour", mod = modsPlateIndex})
-                        print("^5Converted plate index of vehicle: "..b.vehicle.." for ID: "..b.user_id)
+                        print("^5Converted plate index of vehicle: "..b.vehicle.." for ID: "..b.user_id.."^0")
                     end
-                    print("^5Current Conversion Status: Position: "..a.." (^2"..math.floor(a/#result*100).." %^5)")
+                    print("^5Current Conversion Status: Position: "..a.." (^2"..math.floor(a/#result*100).." %^5)^0")
                 end
             end
-            print("^3-------------------------------------")
-            print("^3Finished Converting LSC Vehicles")
-            print("^1Finished Time - "..os.date("%H:%M:%S"))
-            print("^1Conversion took - "..os.time()-startTime.." seconds")
-            print("^3-------------------------------------")
+            print("^3-------------------------------------^0")
+            print("^3Finished Converting LSC Vehicles^0")
+            print("^1Finished Time - "..os.date("%H:%M:%S").."^0")
+            print("^1Conversion took - "..os.time()-startTime.." seconds^0")
+            print("^3-------------------------------------^0")
         end
     end)
 end)
