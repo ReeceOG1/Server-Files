@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>
+<Item>
+	<modelName>ShelbyChino</modelName>
+	<colors>
+	<Item>
+		<indices content="char_array">
+		0
+		0
+		0
+		150
+		0
+		0
+		</indices>
+		<liveries />
+	</Item>
+	<Item>
+		<indices content="char_array">
+		0
+		0
+		0
+		150
+		0
+		0
+		</indices>
+		<liveries />
+	</Item>
+	<Item>
+		<indices content="char_array">
+		0
+		0
+		0
+		150
+		0
+		0
+		</indices>
+		<liveries />
+	</Item>
+	<Item>
+		<indices content="char_array">
+		0
+		0
+		0
+		150
+		0
+		0
+		</indices>
+		<liveries />
+	</Item>
+	<Item>
+		<indices content="char_array">
+		0
+		0
+		0
+		150
+		0
+		0
+		</indices>
+		<liveries />
+	</Item>
+	<Item>
+		<indices content="char_array">
+		0
+		0
+		0
+		150
+		0
+		0
+		</indices>
+		<liveries />
+	</Item>
+	<Item>
+		<indices content="char_array">
+		0
+		0
+		0
+		150
+		0
+		0
+		</indices>
+		<liveries />
+	</Item>
+	<Item>
+		<indices content="char_array">
+		0
+		0
+		0
+		150
+		0
+		0
+		</indices>
+		<liveries />
+	</Item>
+	<Item>
+		<indices content="char_array">
+		0
+		0
+		0
+		150
+		0
+		0
+		</indices>
+		<liveries />
+	</Item>
+	<Item>
+		<indices content="char_array">
+		0
+		0
+		0
+		150
+		0
+		0
+		</indices>
+		<liveries />
+	</Item>
+	</colors>
+	<kits>
+	<Item>1454_ShelbyChino_modkit</Item>
+	</kits>
+	<windowsWithExposedEdges />
+	<plateProbabilities>
+	<Probabilities>
+	<Item>
+		<Name>Standard White</Name>
+		<Value value="50" />
+	</Item>
+	<Item>
+		<Name>yankton plate</Name>
+		<Value value="05" />
+	</Item>			
+	<Item>
+		<Name>White Plate 2</Name>
+		<Value value="45" />
+	</Item>
+	</Probabilities>
+	</plateProbabilities>
+	<lightSettings value="0" />
+	<sirenSettings value="0" />
+</Item>
+  </variationData>
+</CVehicleModelInfoVariation>
