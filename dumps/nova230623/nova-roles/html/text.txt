@@ -1,0 +1,40 @@
+<span id="a">root@novastudios.uk</span>:<span id="b">~</span><span id="c">$</span> cd home/users/nova/
+
+<span id="a">root@novastudios.uk</span>:<span id="b">~</span><span id="c">$</span> ls
+
+info.txt socials.txt
+
+<span id="a">root@novatudios.uk</span>:<span id="b">~</span><span id="c">$</span> nova info.txt<br/><br/>
+
+<p><b>Info</b> 
+
+
+
+Name: NOVA Roleplay
+
+Established: July 2022
+
+Location: United Kingdom
+
+Loading Song: Sprinter - Dave, Central Cee</p>
+
+
+
+<span id="a">root@novastudios.uk</span>:<span id="b">~</span><span id="c">$</span> cat socials.txt<br/><br/>
+
+<p><b>Socials</b>
+
+
+
+<i class="fab fa-twitter"></i> <a href="https://twitter.com/novastudiosuk">@novastudiosuk</a>
+
+<i class="fab fa-tiktok"></i> <a href="https://tiktok.com/@novastudiosuk">@novastudiosuk</a>
+
+<i class="fab fa-discord"></i> <a href="https://discord.gg/nova5m">discord.gg/nova5m</a>
+
+<i class="fa fa-globe"></i> <a href="https://novastudios.uk">novastudios.uk</a>
+
+
+
+<p><small>Copyright <i class="fa fa-copyright"></i> 2023 - <a href="#">https://novastudios.uk</a></small></p>
+
