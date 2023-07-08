@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="../web/script.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="WeaponUI-Cont" style="display:none;">
+        <div class="WeaponName">
+            <span id="GunModel">// AK47</span>
+        </div>
+        <div class="WeaponUI">
+            <img id="Outline" src="https://media.discordapp.net/attachments/1109217049177243708/1117907523735916685/BORDER.png" alt="">
+            <div class="WeaponUIInfo">
+                <div class="AmmoCount">
+                    <span id="clip">30</span>
+                    <span class="weaponAmmo" id="small"> / 221</span>
+                </div>
+                <div class="WeaponIMGCont">
+                    <img id="WeaponIMG" src="https://media.discordapp.net/attachments/1109217049177243708/1117658106483187804/ak.png?width=960&height=313" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="killleaders" style="display:none;">
+        <div class="option">
+            <div class="pos">
+                1
+            </div>
+            <div class="line" style="left: 80%;"></div>
+            <div id="firstKills" class="pos" style="left: 80%;">
+                0
+            </div>
+            <div id="first" style="color: #f6d01f;" class="playerName">
+                TIZZY
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="option">
+            <div class="pos">
+                2
+            </div>
+            <div id="second" style="color: #b1b3b5;" class="playerName">
+                AUTH
+            </div>
+            <div class="line" style="left: 80%;"></div>
+            <div id="secondKills" class="pos" style="left: 80%;">
+                0
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="option">
+            <div class="pos">
+                3
+            </div>
+            <div id="third" style="color: #c68524;" class="playerName">
+                JORDAN
+            </div>
+            <div class="line" style="left: 80%;"></div>
+            <div id="thirdKills" class="pos" style="left: 80%;">
+                0
+            </div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+
+    <div class="interactionUI" style="display: none;">
+        <span>PRESS [</span>
+        <span id="red">E</span>
+        <span>] TO INTERACT WITH PED</span>
+    </div>
+</body>
+</html>

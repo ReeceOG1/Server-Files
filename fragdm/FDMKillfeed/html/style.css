@@ -1,0 +1,114 @@
+
+@font-face {
+	font-family: Valo;
+	src: url(AXIS.ttf);
+}
+
+#killfeed-container {
+	margin-top: 5vh;
+	margin-right: 1vh;
+	width: 49vw;
+	height: 90vh;
+	float: right;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.kill-line {
+	float: right;
+	width: 100%;
+	margin-bottom: 0.35vh;
+	animation-fill-mode: forwards;
+}
+
+.kill-container {
+	height: 1.5vh;
+	float: right;
+	display:inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.line-clamp {
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+}
+
+.black-design {
+	background-color: rgba(30, 30, 30, 0.8);
+	padding: 0.3em 0.3em 0.3em 0.3em;
+}
+
+.teal-design {
+	background-color: rgba(0, 255, 26, 0.8);
+	padding: 0.3em 0.3em 0.3em 0.3em;
+}
+
+.red-design {
+	background-color: rgb(255, 97, 92, 0.8);
+	padding: 0.3em 0.3em 0.3em 0.3em;
+}
+
+.text {
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	color: rgb(255, 255, 255);
+	font-family: 'Valo', Arial, Helvetica, sans-serif;
+}
+
+.name {
+	padding-left: 0.85vh;
+	padding-right: 0.85vh;
+	font-size: 0.9em;
+	font-weight: 500;
+}
+
+.tag {
+	padding-left: 0.85vh;
+	margin-right: -0.30vh;
+	font-size: 0.9em;
+}
+
+.message {
+	padding-right: 0.85vh;
+	font-size: 0.9em;
+}
+
+.dist {
+	padding-left: 0.4vh;
+	padding-right: 0.4vh;
+	padding-top: 0.2vh;
+	padding-bottom: 0.2vh;
+	margin-right: 0.82vh;
+	font-size: 1.0em;
+	white-space: nowrap;
+	font-weight: 100;
+	border: solid rgb(255, 255, 255) 2px;
+}
+
+.none {
+	padding: 0;
+	padding-right: 0.85vh;
+}
+
+.weapon-image {
+	height: 1.9vh;
+}
+
+.icon-image {
+	height: 2.3vh;
+	padding: 0;
+	padding-left: 0.85vh;
+}
+
+/* ANIMATIONS  */
+
+.animate__animated.animate__fadeInRight {
+	--animate-duration: 300ms;
+}
+.animate__animated.animate__flipOutX {
+	--animate-duration: 0.6s;
+}

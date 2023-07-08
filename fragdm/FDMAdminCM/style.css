@@ -1,0 +1,128 @@
+@font-face {
+    font-family: sans;
+    src: url("assests/open-sans.extrabold.ttf");
+}
+
+.main-cont{
+    font-family: "sans", Fallback, sans-serif;
+    position: fixed;
+    background-color:rgba(17, 16, 16, 0.7);
+    height: 55%;
+    width: 25%;
+    top: 44.5%;
+    right: 0.1%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.logo{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.calls-cont{
+    position: relative;
+    height: 70%;
+    width: 100%;
+    overflow: auto;
+}
+
+.calls{
+    position: relative;
+    left: 5%;
+    background-color:rgba(17, 16, 16, 0.8);
+    font-size: 8px;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1%;
+    outline: none;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.calls .admin{
+    color: rgb(255, 255, 255);
+}
+
+.buttons{
+    font-family: "Hanson", Fallback, sans-serif;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 90%;
+    width: 100%;
+    height: 10%;
+    color: white;
+}
+
+
+::-webkit-scrollbar {
+    width: 3px;
+  }
+
+::-webkit-scrollbar-track {
+    background: #707070;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #e50105;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e50105;
+}
+
+.accept{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    font-size: 10px;
+    height: 50%;
+    background-color:rgba(17, 16, 16, 0.8);
+}
+
+.accept:hover{
+    background-color: #e50105;
+}
+
+.decline{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    font-size: 10px;
+    height: 50%;
+    background-color:rgba(17, 16, 16, 0.8);
+}
+
+.decline:hover{
+    background-color: #e50105;
+}
+
+
+@font-face {
+    font-family: nexa;
+    src: url("assests/gang.otf");
+}
+
+.staff{
+    font-family: nexa;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    height: 2.5%;
+    width: 15%;
+    left: 42.5%;
+    top: 95.5%;
+    margin-right: -50%;
+    transform: skewX(-20deg);
+}
