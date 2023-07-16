@@ -1,0 +1,104 @@
+body {
+    overflow: hidden;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+
+.hud-container {
+    position: absolute;
+    bottom: 1.5%;
+    left: 1.5%;
+    width: 100%;
+    height: 0.7vh;
+    z-index: 1;
+    margin-bottom: calc(0.25% + 0.55vh);
+}
+
+
+.bars {
+    position: relative;
+    overflow: hidden;
+    height: 10px;
+    width: 270px;
+    box-shadow: 0 1px 1vh 0.05vh rgba(0, 0, 0, 0.35);
+    z-index: 1;
+}
+
+.filler {
+    height: 100%;
+    z-index: 0;
+    background: black;
+}
+
+
+.loading img{
+    position: absolute;
+    height: 5%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.mapOutline{
+    position: absolute;
+    height: 16.7%;
+    width: 13.9%;
+    left: 1.59%;
+    outline: 2px solid rgb(255, 255, 255);
+    top: 80%;
+}
+
+@font-face {
+    font-family: Points-Font;
+    src: url(font.ttf)
+}
+
+.playerPoints{
+    font-family: Points-Font;
+    position: absolute;
+    top: 92.5%;
+    left: 17%;
+    width: 5%;
+    height: 3%;
+    background:  linear-gradient(to right, #4d1a1a,#fe0000);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px 2px rgb(235, 0, 0);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 12.5px;
+}
+
+#playerKills{
+    font-family: Points-Font;
+    position: absolute;
+    top: 96%;
+    left: 17%;
+    width: 5%;
+    height: 2%;
+    box-sizing: border-box;;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 13.5px;
+    display: none;
+}
+
+#playerKills img{
+    position: relative;
+    height: 65%;
+    bottom: -9%;
+}
+
+.playerPoints img{
+    position: relative;
+    height: 55%;
+    bottom: 5%;
+}

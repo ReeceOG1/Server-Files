@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="lvl-hud">
+    <title>Hud</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main" id="UI">
+        <div class="hud-container">
+            <div id="HUI" class="bars" style="background: rgba(0, 0, 0, 0.4);">
+                <span id="health" style="width: 100%; background:  linear-gradient(to right, #17c321,#80ef2e); position: absolute;" class="filler"></span>
+            </div>
+            <div id="AUI" class="bars" style="background:rgba(0, 0, 0, 0.4);">
+                <span id="shield" style="width: 100%; background: linear-gradient(to right,#055bca,#03d9fb); float: left;" class="filler"></span>
+            </div>
+        </div>
+    </div>
+    <div class="playerPoints">
+        <img src="https://media.discordapp.net/attachments/1117264998289383445/1117265522980048947/kill-leader.png" alt="">
+        <span id="Points">100,000</span>
+    </div>
+    <div id="playerKills"">
+        <img src="https://media.discordapp.net/attachments/1122766470540169297/1122872793638375464/skulll.png" alt="">
+        <span id="kills">10</span>
+    </div>
+    <div class="mapOutline"></div>
+    <div id="loadingWheel" class="loading" style="display:none;">
+        <img src="https://thumbs.gfycat.com/MetallicSmugDavidstiger-max-1mb.gif" alt="">
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

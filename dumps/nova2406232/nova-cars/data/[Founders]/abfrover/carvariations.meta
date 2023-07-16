@@ -1,0 +1,40 @@
+<CVehicleModelInfoVariation>
+  <variationData>
+    <Item>
+      <modelName>abfrover</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            52
+            52
+            120
+            52 
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>34671_abfrover_modkit</Item>
+      </kits>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100.0" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="3467" />
+      <sirenSettings value="0" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>

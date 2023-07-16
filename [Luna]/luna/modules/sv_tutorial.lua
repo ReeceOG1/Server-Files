@@ -1,0 +1,39 @@
+-- local function sendToDiscord(title, description, color)
+--     local embed = {
+--         {
+--             ["color"] = color,
+--             ["title"] = title,
+--             ["description"] = description,
+--             ["footer"] = {
+--                 ["text"] = "LUNA Server #1 - "..os.date("%A (%d/%m/%Y) at %X"),
+--             }
+--         }
+--     }
+--     PerformHttpRequest("https://ptb.discord.com/api/webhooks/1110525384572817478/VYAlHsTz5MpqtwOp2NVcgLgV_Mr16br1wgXBGzifTAMgZnIXxyc7WfEyePG4wkkRoYsx", function(err, text, headers) end, "POST", json.encode({username = "LUNA", embeds = embed}), { ["Content-Type"] = "application/json" })
+-- end
+
+-- RegisterNetEvent('LUNA:checkTutorial')
+-- AddEventHandler('LUNA:checkTutorial', function()
+--     local source = source
+--     local user_id = LUNA.getUserId(source)
+--     if not LUNA.hasGroup(user_id, 'TutorialCompleted') then
+--         print("Tutorial Not Completed")
+--         local title = GetPlayerName(source).." TempID: "..source.." PermID: "..user_id
+--         local description = "```Has Not Completed the Tutorial```"
+--         sendToDiscord(title, description, "33069")
+--         TriggerClientEvent('LUNA:startTutorial', source)
+--     end
+-- end)
+
+-- RegisterNetEvent('LUNA:setCompletedTutorial')
+-- AddEventHandler('LUNA:setCompletedTutorial', function()
+--     local source = source
+--     local user_id = LUNA.getUserId(source)
+--     if not LUNA.hasGroup(user_id, 'TutorialCompleted') then
+--         LUNA.addUserGroup(user_id,'TutorialCompleted')
+--         print("Tutorial Completed")
+--         local title = GetPlayerName(source).." TempID: "..source.." PermID: "..user_id
+--         local description = "```Has finished the Tutorial```"
+--         sendToDiscord(title, description, "3394665")
+--     end
+-- end)
