@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    
+<CVehicleModelInfoVarGlobal>
+  <Kits>
+	<Item>
+      <kitName>991_typn_modkit</kitName>
+      <id value="991" />
+      <kitType>MKT_SPECIAL</kitType>
+      <visibleMods>
+        <Item>
+          <modelName>typn_pylon_l</modelName>
+          <modShopLabel>typn_gbu</modShopLabel>
+          <linkedModels>
+		    		<Item>typn_pylon_r</Item>
+					<Item>typn_gbu_r</Item>
+					<Item>typn_gbu_l</Item>
+          </linkedModels>
+		  <turnOffBones />
+          <type>VMT_SPOILER</type>
+          <bone>mod_a</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot value="3" />
+		 </Item>
+		 <Item>
+          <modelName>typn_irst</modelName>
+          <modShopLabel>vmt_irst</modShopLabel>
+          <linkedModels />
+		  <turnOffBones />
+          <type>VMT_ROOF</type>
+          <bone>chassis</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="100" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>typn_mirror</modelName>
+          <modShopLabel>vmt_mirror</modShopLabel>
+          <linkedModels />
+		  <turnOffBones>
+		  			<Item>mod_m</Item>
+		  </turnOffBones>
+          <type>VMT_BUMPER_F</type>
+          <bone>mod_n</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="100" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+		 <Item>
+          <modelName>typn_tank_l</modelName>
+          <modShopLabel>typn_tank</modShopLabel>
+          <linkedModels>
+		    		<Item>typn_tank_r</Item>
+          </linkedModels>
+		  <turnOffBones />
+          <type>VMT_BUMPER_R</type>
+          <bone>mod_a</bone>
+          <collisionBone>chassis</collisionBone>
+          <cameraPos>VMCP_DEFAULT</cameraPos>
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <turnOffExtra value="false" />
+          <disableBonnetCamera value="false" />
+          <allowBonnetSlide value="true" />
+		  <weaponSlot />
+		 </Item>
+      </visibleMods>
+	  <linkMods>
+		<Item>
+          <modelName>typn_pylon_r</modelName>
+          <bone>mod_b</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>typn_gbu_r</modelName>
+          <bone>mod_b</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>typn_gbu_l</modelName>
+          <bone>mod_a</bone>
+          <turnOffExtra value="false" />
+        </Item>
+		<Item>
+          <modelName>typn_tank_r</modelName>
+          <bone>mod_b</bone>
+          <turnOffExtra value="false" />
+        </Item>
+	  </linkMods>
+      <slotNames>      
+       <Item>
+          <slot>VMT_EXHAUST</slot>
+          <name>vmt_nozzle</name>
+        </Item>
+		<Item>
+          <slot>VMT_BUMPER_F</slot>
+          <name>vmt_mirror</name>
+        </Item>
+		<Item>
+          <slot>VMT_BUMPER_R</slot>
+          <name>typn_tank</name>
+        </Item>
+		<Item>
+          <slot>VMT_ROOF</slot>
+          <name>vmt_irst</name>
+        </Item>
+		<Item>
+          <slot>VMT_SPOILER</slot>
+          <name>vmt_typn_arms</name>
+        </Item>
+      </slotNames>
+      <statMods>
+        <Item>
+          <identifier />
+          <modifier value="25" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="50" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="75" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ENGINE</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="25" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="65" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="5" />
+          <type>VMT_BRAKES</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="20" />
+          <audioApply value="1.000000" />
+          <weight value="0" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="40" />
+          <audioApply value="1.000000" />
+          <weight value="10" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="60" />
+          <audioApply value="1.000000" />
+          <weight value="20" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="80" />
+          <audioApply value="1.000000" />
+          <weight value="30" />
+          <type>VMT_ARMOUR</type>
+        </Item>
+        <Item>
+          <identifier />
+          <modifier value="100" />
+          <audioApply value="1.000000" />
+          <weight value="40" />
+          <type>VMT_ARMOUR</type>
+        </Item>  
+      </statMods>
+      <slotNames>      
+        <Item>
+          <slot>VMT_EXHAUST</slot>
+          <name>vmt_nozzle</name>
+        </Item>
+		<Item>
+          <slot>VMT_ROOF</slot>
+          <name>vmt_irst</name>
+        </Item>
+		<Item>
+          <slot>VMT_SPOILER</slot>
+          <name>vmt_typn_arms</name>
+        </Item>
+      </slotNames>
+      <liveryNames />
+    </Item>
+  </Kits> 
+    <Lights />
+</CVehicleModelInfoVarGlobal>
