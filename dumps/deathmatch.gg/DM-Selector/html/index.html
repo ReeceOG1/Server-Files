@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>	
+	</head>
+	<body id="displayProperty" style="display:false;">
+		<div id="button1" class="box" style="background-image: url(https://i0.wp.com/callofdutymaps.com/wp-content/uploads/militia1.jpg?fit=1920%2C1080&ssl=1)">
+			<h1>Extinction (Under Development...)</h1>
+		</div>
+		<div id="button2" class="box" style="background-image: url(https://cdn.discordapp.com/attachments/953438421441998878/961651921196814416/unknown.png)">
+			<h1>Casual</h1>
+		</div>
+		<div id="button3" class="box" style="background-image: url(https://img.gamewith.net/article/thumbnail/rectangle/13072.png)">
+			<h1>Redzone</h1>
+		</div>
+		<div id="button4" class="box" style="background-image: url(https://images.squarespace-cdn.com/content/v1/568f1b47b204d5eb02a89193/1571807557582-J21T200WQW1V0FPESGO5/Call+of+Duty%C2%AE_+Black+Ops+III_20191022215018.jpg);">
+			<h1>Gun Game</h1>
+		</div>
+	</body>
+	<script>
+		$(function () {
+			function display(bool) {
+				if (bool) {
+					$("#displayProperty").show();
+				} else {
+					$("#displayProperty").hide();
+				}
+			}
+			display(false)
+		
+			window.addEventListener('message', function(event) {
+				var item = event.data;
+				if (item.type === "ui") {
+					if (item.status == true) {
+						display(true)
+					} else {
+						display(false)
+					}
+				}
+			})
+			//on escape click set display to false
+			$(document).keyup(function(e) {
+				if (e.keyCode == 27) {
+					$.post(`https://${GetParentResourceName()}/exit`)
+					display(false)
+				}
+			});
+			$("#button1").click(function () {
+				$.post(`https://${GetParentResourceName()}/Extinction`, JSON.stringify({}));
+				return
+			})
+			$("#button2").click(function () {
+				$.post(`https://${GetParentResourceName()}/Casual`, JSON.stringify({}));
+				return
+			})
+			$("#button3").click(function () {
+				$.post(`https://${GetParentResourceName()}/American`, JSON.stringify({}));
+				return
+			})
+			$("#button4").click(function () {
+				$.post(`https://${GetParentResourceName()}/gunGame`, JSON.stringify({}));
+				return
+			})
+		})
+	</script>
+</html>

@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<title>Map Vote</title>
+		<meta name="description" content="Map Vote" />
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+		
+		<link rel="icon" href="https://codehasbug.com/wp-content/uploads/2021/06/gblogo.png" sizes="32x32" />
+		<link rel="icon" href="https://codehasbug.com/wp-content/uploads/2021/06/gblogo.png" sizes="192x192" />
+		<link rel="apple-touch-icon" href="https://codehasbug.com/wp-content/uploads/2021/06/gblogo.png" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>	
+		<meta name="msapplication-TileImage" content="https://codehasbug.com/wp-content/uploads/2021/06/gblogo.png" />
+		<style>
+			body, html {
+				background-color: #61616100;
+				overflow:auto;
+			}
+			.header	.custom-logo{
+				width: 140px;
+				height: auto;
+			}
+			.spacer{
+				position: relative;
+				height: 80px;
+			}
+			.grid-box{
+				display: grid;
+				grid-gap: 20px;
+				grid-template-columns: repeat(3, 1fr);
+				margin-bottom: 40px;
+			}
+			
+			.cell{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				box-shadow: 0 0px 2px rgb(0 0 0 / 7%), 0 5px 6px rgb(0 0 0 / 16%);
+				height: 200px;
+                outline: 5px solid rgba(189, 189, 189, 0.223);
+				background-color: #616161;
+                background-size: cover;
+			}
+            .text{
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                align-items: center;
+                font-weight: bold;
+                color: rgb(0, 0, 0);
+                font-size: 27px;
+                padding-bottom: 120px;
+            }
+
+			::-webkit-scrollbar {
+				display: none;
+			}
+
+            .cell:hover {
+                opacity: 0.8;
+            }
+
+            .cell:first-child {
+                border-bottom: 1px solid rgb(255, 255, 255);
+                border-right: 1px solid rgb(255, 255, 255);
+            }
+            .cell:nth-child(2) {
+                border-bottom: 1px solid rgb(255, 255, 255);
+            }
+            .cell:nth-child(3) {
+                border-right: 1px solid rgb(255, 255, 255);
+            }
+		</style>
+		
+	</head>
+	<body id="displayProperty" style="display:false;">
+		<div class=""></div>
+		<div class="container">	
+			<div class="row">
+				<div class="col-12 mt-5 text-center" style="color: rgb(255, 255, 255);">
+					<h1>Map Vote</h1>
+				</div>
+			</div>
+			
+			<div class="row mt-3">
+				<div class="col-12">
+					
+					<div class="grid-box">
+                        <div id="Playboy" class="cell" style="background-image: url(https://static.wikia.nocookie.net/gtawiki/images/6/65/RichmanMansion-GTAV.png)">
+                            <h1 class="text">Playboy Mansion</h1>
+                        </div>
+                        <div id="AltaConst" class="cell" style="background-image: url(https://static.wikia.nocookie.net/gtawiki/images/b/b5/STDContractors-GTAV-Alta.png/)">
+                            <h1 class="text">Alta Construction Site</h1>
+                        </div>
+                        <div id="Library" class="cell" style="background-image: url(https://i.ytimg.com/vi/YvwJR5ZfJ6Y/maxresdefault.jpg)">
+                            <h1 class="text">Library</h1>
+                        </div>
+						<div id="MissionRowPD" class="cell" style="background-image: url(https://static.wikia.nocookie.net/gtawiki/images/d/dc/MissionRowPoliceStation-GTAV.png)">
+                            <h1 class="text">Mission Row</h1>
+                        </div>
+						<div id="BacklotCity" class="cell" style="background-image: url(https://static.wikia.nocookie.net/gtawiki/images/e/e0/BacklotCity-GTAV.png)">
+                            <h1 class="text">Backlot City</h1>
+                        </div>
+						<div id="LaFuenteBlanca" class="cell" style="background-image: url(https://static.wikia.nocookie.net/nopixel/images/5/52/LaFuenteBlanca-AerialView-GTAV.png)">
+                            <h1 class="text">La Fuente Blanca</h1>
+                        </div>
+						<div id="PowerStation" class="cell" style="background-image: url(https://static.wikia.nocookie.net/gtawiki/images/9/99/PalmerTaylorPowerStation-GTAV.png)">
+                            <h1 class="text">Power Station</h1>
+                        </div>
+						<div id="NOOSEHQ" class="cell" style="background-image: url(https://i.ytimg.com/vi/_ELcPqN6yHY/maxresdefault.jpg)">
+                            <h1 class="text">N.O.O.S.E Headquarters</h1>
+                        </div>
+						<div id="HumaneLabs" class="cell" style="background-image: url(https://static.wikia.nocookie.net/gta-myths/images/e/e7/HumaneLabs-GTAV.jpg)">
+                            <h1 class="text">Humane Labs</h1>
+                        </div>
+						<div id="ThomsonScrapyard" class="cell" style="background-image: url(https://static.wikia.nocookie.net/gtawiki/images/5/51/ThomsonScrapyard-GTAV.png)">
+                            <h1 class="text">Thomson Scrapyard</h1>
+                        </div>
+						<div id="DiamondCasino" class="cell" style="background-image: url(https://static.wikia.nocookie.net/gtawiki/images/3/3a/TheDiamondCasino%26Resort-GTAO-DayView.png/)">
+                            <h1 class="text">Diamond Casino</h1>
+                        </div>
+						<div id="MirrorPark" class="cell" style="background-image: url(https://static.wikia.nocookie.net/gtawiki/images/e/ea/MirrorPark-GTAV.png)">
+                            <h1 class="text">Mirror Park</h1>
+                        </div>
+						<div id="ElBurroHeights" class="cell" style="background-image: url(https://static.wikia.nocookie.net/esgta/images/6/6b/ElBurroHeightsVista.jpg)">
+                            <h1 class="text">El Burro Heights</h1>
+                        </div>
+					</div>
+				</div>
+			</div>
+			<div class="spacer"></div>
+		</div>
+	</body>
+
+    <script>
+		$(function () {
+			function display(bool) {
+				if (bool) {
+					$("#displayProperty").show();
+					document.body.style.backgroundImage = "url(https://images7.alphacoders.com/587/587535.jpg)";
+					document.body.style.backgroundSize = "cover"
+				} else {
+					$("#displayProperty").hide();
+					document.body.style.backgroundImage = "";
+				}
+			}
+			display(false)
+
+			window.addEventListener('message', function(event) {
+				var item = event.data;
+				if (item.type === "ui") {
+					if (item.status == true) {
+						display(true);
+					} else {
+						display(false)
+					}
+				}
+			})
+
+			$("#Playboy").click(function () {
+				$.post(`https://${GetParentResourceName()}/sentVote:GG`, JSON.stringify({loc: "playboyMansion"}));
+				return
+			})
+			$("#AltaConst").click(function () {
+				$.post(`https://${GetParentResourceName()}/sentVote:GG`, JSON.stringify({loc: "altaConst"}));
+				return
+			})
+			$("#Library").click(function () {
+				$.post(`https://${GetParentResourceName()}/sentVote:GG`, JSON.stringify({loc: "library"}));
+				return
+			})
+			$("#MissionRowPD").click(function () {
+				$.post(`https://${GetParentResourceName()}/sentVote:GG`, JSON.stringify({loc: "mrpd"}));
+				return
+			})
+			$("#BacklotCity").click(function () {
+				$.post(`https://${GetParentResourceName()}/sentVote:GG`, JSON.stringify({loc: "BacklotCity"}));
+				return
+			})
+			$("#LaFuenteBlanca").click(function () {
+				$.post(`https://${GetParentResourceName()}/sentVote:GG`, JSON.stringify({loc: "LaFuenteBlanca"}));
+				return
+			})
+			$("#PowerStation").click(function () {
+				$.post(`https://${GetParentResourceName()}/sentVote:GG`, JSON.stringify({loc: "PowerStation"}));
+				return
+			})
+			$("#NOOSEHQ").click(function () {
+				$.post(`https://${GetParentResourceName()}/sentVote:GG`, JSON.stringify({loc: "NOOSEHQ"}));
+				return
+			})
+			$("#HumaneLabs").click(function () {
+				$.post(`https://${GetParentResourceName()}/sentVote:GG`, JSON.stringify({loc: "HumaneLabs"}));
+				return
+			})
+			$("#ThomsonScrapyard").click(function () {
+				$.post(`https://${GetParentResourceName()}/sentVote:GG`, JSON.stringify({loc: "ThomsonScrapyard"}));
+				return
+			})
+			$("#DiamondCasino").click(function () {
+				$.post(`https://${GetParentResourceName()}/sentVote:GG`, JSON.stringify({loc: "DiamondCasino"}));
+				return
+			})
+			$("#MirrorPark").click(function () {
+				$.post(`https://${GetParentResourceName()}/sentVote:GG`, JSON.stringify({loc: "MirrorPark"}));
+				return
+			})
+			$("#ElBurroHeights").click(function () {
+				$.post(`https://${GetParentResourceName()}/sentVote:GG`, JSON.stringify({loc: "ElBurroHeights"}));
+				return
+			})
+		})
+	</script>
+</html>
