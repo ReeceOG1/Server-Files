@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponComponentInfoBlob>
+    <Infos>
+		<Item type="CWeaponComponentClipInfo">
+			<Name>COMPONENT_UPPYR700_CLIP_01</Name>
+			<Model>w_sr_uppyr700_mag</Model>
+			<LocName>WCT_CLIP1</LocName>
+			<LocDesc>WCD_SR_CLIP1</LocDesc>
+			<AttachBone>AAPClip</AttachBone>
+			<AccuracyModifier type="NULL" />
+			<DamageModifier type="NULL" />
+			<bShownOnWheel value="false" />
+			<CreateObject value="true" />
+			<HudDamage value="0" />
+			<HudSpeed value="0" />
+			<HudCapacity value="0" />
+			<HudAccuracy value="0" />
+			<HudRange value="0" />
+			<ClipSize value="10" />
+			<ReloadData ref="RELOAD_DEFAULT" />
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_UPPYR700_STOCK_05</Name>
+			<Model>w_sr_uppyr700_stock</Model>
+			<LocName>STOCK</LocName>
+			<LocDesc>STOCK</LocDesc>
+			<AttachBone>AAPStock</AttachBone>
+			<AccuracyModifier type="NULL" />
+			<DamageModifier type="NULL" />
+			<bShownOnWheel value="false" />
+			<CreateObject value="true" />
+			<HudDamage value="0" />
+			<HudSpeed value="0" />
+			<HudCapacity value="0" />
+			<HudAccuracy value="0" />
+			<HudRange value="0" />
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_UPPYR700_BARREL_02</Name>
+			<Model>w_sr_uppyr700_barrel</Model>
+			<LocName>BARREL</LocName>
+			<LocDesc>BARREL</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<AccuracyModifier type="NULL" />
+			<DamageModifier type="NULL" />
+			<bShownOnWheel value="false" />
+			<CreateObject value="true" />
+			<HudDamage value="0" />
+			<HudSpeed value="0" />
+			<HudCapacity value="0" />
+			<HudAccuracy value="0" />
+			<HudRange value="0" />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_UPPYR700_MUZZLE_08</Name>
+			<Model>w_sr_uppyr700_muzzle</Model>
+			<LocName>WCT_SUPPRESSOR</LocName>
+			<LocDesc>WCD_SUPPRESSOR</LocDesc>
+			<AttachBone>AAPSupp</AttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="false" />
+		</Item>
+		<Item type="CWeaponComponentScopeInfo">
+			<Name>COMPONENT_UPPYR700_SCOPE_07</Name>
+			<Model>w_at_uppyr700_scope</Model>
+			<LocName>WCT_SCOPE_MED</LocName>
+			<LocDesc>WCD_SCOPE_MED</LocDesc>
+			<AttachBone>AAPScop</AttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+			<CameraHash>SNIPER_LOW_ZOOM_AIM_CAMERA</CameraHash>
+			<ExtraZoomFactorForAccurateMode value="0.000000" />
+			<ReticuleHash>SNIPER_LARGE</ReticuleHash>
+			<SpecialScopeType />
+		</Item>
+    </Infos>
+	<InfoBlobName>gmt template</InfoBlobName>
+</CWeaponComponentInfoBlob>

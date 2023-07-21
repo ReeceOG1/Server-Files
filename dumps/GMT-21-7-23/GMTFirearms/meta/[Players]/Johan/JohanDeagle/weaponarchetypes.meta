@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+		  <modelName>w_pi_johandeagle</modelName>
+		  <txdName>w_pi_johandeagle</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="500"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_johandeagle_mag2</modelName>
+		  <txdName>w_pi_johandeagle_mag2</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="500"/>
+		</Item>
+		  <Item>
+			<modelName>w_at_johandeagle_supp_02</modelName>
+			<txdName>w_at_johandeagle_supp_02</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="500"/>
+		  </Item>
+		  <Item>
+			<modelName>w_at_johandeagle_flsh</modelName>
+			<txdName>w_at_johandeagle_flsh</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="500"/>
+		  </Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

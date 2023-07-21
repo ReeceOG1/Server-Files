@@ -1,0 +1,87 @@
+-- local cfg = module("cfg/cfg_guntrader")
+-- local gunstoreTable = {}
+-- local selectedGunstore = nil
+
+-- RMenu.Add("GMTGunTrader","main",RageUI.CreateMenu("", "", tGMT.getRageUIMenuWidth(), tGMT.getRageUIMenuHeight()))
+-- RMenu:Get("GMTGunTrader","main"):SetSubtitle("~b~GMT Weapon Trader")
+-- RMenu.Add("GMTGunTrader","guns",RageUI.CreateSubMenu(RMenu:Get("GMTGunTrader", "main"),"","",tGMT.getRageUIMenuWidth(),tGMT.getRageUIMenuHeight()))
+-- RageUI.CreateWhile(1.0,RMenu:Get("GMTGunTrader", "main"),nil,function()
+--     RageUI.IsVisible(RMenu:Get("GMTGunTrader", "main"),true,true,true,function()
+--         RageUI.DrawContent({ header = true, glare = false, instructionalButton = true}, function()
+--             for k, v in pairs(gunstoreTable) do
+--                 if a.sellableCategories[k] then
+--                     for k2, v2 in pairs(v) do
+--                         if f == "_config" then
+--                             RageUI.ButtonWithStyle(g[4],"Sell weapons bought from " .. v2[4],{RightLabel = "→→→"},true,function(Hovered, Active, Selected)
+--                                 if Selected then
+--                                     selectedGunstore = k
+--                                     RMenu:Get("GMTGunTrader", "guns"):SetSubtitle("~b~" .. v2[4] .. " Weapons")
+--                                 end
+--                             end,RMenu:Get("GMTGunTrader", "guns"))
+--                         end
+--                     end
+--                 end
+--             end
+--         end,function()end)
+--         RageUI.IsVisible(RMenu:Get("GMTGunTrader", "guns"),true,true,true,function()
+--             for k, v in pairs(gunstoreTable) do
+--                 if k == selectedGunstore then
+--                     for k2, v2 in pairs(v) do
+--                         if k2 ~= "_config" and not string.find(v2[1], "Armour") then
+--                             local weaponPrice = v2[2]
+--                             if k == "LargeArmsDealer" then weaponPrice = v2[7] end
+--                             RageUI.ButtonWithStyle(v2[1],"Sell back for £" .. getMoneyStringFormatted(weaponPrice*cfg.refundPercentage),{RightLabel = "→→→"},true,function(Hovered, Active, Selected)
+--                                 if Selected then
+--                                     TriggerServerEvent("GMT:gunTraderSell", k,k2)
+--                                 end
+--                             end)
+--                         end
+--                     end
+--                 end
+--             end
+--         end,function()end)
+--     end)
+-- end)
+-- CreateThread(function()
+
+--     tGMT.createDynamicPed(cfg.pedModel,cfg.pedPosition,cfg.pedHeading,true,"mini@strip_club@idles@bouncer@base","base",75.0,nil,function(d)
+--         SetEntityCanBeDamaged(k, 0)
+--         SetPedAsEnemy(k, 0)
+--         SetBlockingOfNonTemporaryEvents(k, 1)
+--         SetPedResetFlag(k, 249, 1)
+--         SetPedConfigFlag(k, 185, true)
+--         SetPedConfigFlag(k, 108, true)
+--         SetPedCanEvasiveDive(k, 0)
+--         SetPedCanRagdollFromPlayerImpact(k, 0)
+--         SetPedConfigFlag(k, 208, true)
+--         SetEntityCollision(k, false)
+--         SetEntityCoordsNoOffset(k, cfg.pedPosition.x, cfg.pedPosition.y, cfg.pedPosition.z, cfg.pedHeading, 0, 0)
+--         SetEntityHeading(k, cfg.pedHeading)
+--         FreezeEntityPosition(k, true)
+--     end)
+--     local a9 = function(aa)
+--         RageUI.CloseAll()
+--         c = nil
+--         RageUI.Visible(RMenu:Get("GMTGunTrader", "main"), true)
+--     end
+--     local ab = function(aa)
+--         RageUI.CloseAll()
+--         RageUI.Visible(RMenu:Get("GMTGarages", "main"), false)
+--     end
+--     local ac = function(aa)
+--     end
+--     tGMT.createArea("weapontrader", cfg.location, 1.5, 6, k, m, n, {})
+--     local af = cfg.location
+--     tGMT.addBlip(af.x, af.y, af.z, 110, 1, "Weapon Trader", 0.7, false)
+--     tGMT.addMarker(af.x, af.y, af.z, 0.7, 0.7, 0.5, 255, 0, 0, 125, 50, 27, true)
+--     local blip = AddBlipForRadius(af.x, af.y, af.z, 35.0)
+--     SetBlipColour(p, 44)
+--     SetBlipAlpha(p, 180)
+-- end)
+-- RegisterNetEvent("GMT:receiveFilteredGunStoreData")
+-- AddEventHandler("GMT:receiveFilteredGunStoreData",function(F)
+--     gunstoreTable = F
+--     table.sort(gunstoreTable, function(a,b)
+--         return a._config[4] < a._config[4]
+--     end)
+-- end)

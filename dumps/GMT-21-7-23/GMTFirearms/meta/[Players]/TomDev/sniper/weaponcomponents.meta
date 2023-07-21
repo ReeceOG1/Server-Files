@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponComponentInfoBlob>
+    <Infos>
+		<Item type="CWeaponComponentClipInfo">
+			<Name>COMPONENT_TOMSNIPER_CLIP_01</Name>
+			<Model>w_sr_tomsniper_mag1</Model>
+			<LocName>WCT_CLIP1</LocName>
+			<LocDesc>WCD_SR_CLIP1</LocDesc>
+			<AttachBone>AAPClip</AttachBone>
+			<AccuracyModifier type="NULL" />
+			<DamageModifier type="NULL" />
+			<bShownOnWheel value="false" />
+			<CreateObject value="true" />
+			<HudDamage value="0" />
+			<HudSpeed value="0" />
+			<HudCapacity value="0" />
+			<HudAccuracy value="0" />
+			<HudRange value="0" />
+			<ClipSize value="10" />
+			<ReloadData ref="RELOAD_DEFAULT" />
+		</Item>
+		<Item type="CWeaponComponentClipInfo">
+			<Name>COMPONENT_TOMSNIPER_CLIP_02</Name>
+			<Model>w_sr_tomsniper_mag2</Model>
+			<LocName>WCT_CLIP1</LocName>
+			<LocDesc>WCD_SR_CLIP1</LocDesc>
+			<AttachBone>AAPClip</AttachBone>
+			<AccuracyModifier type="NULL" />
+			<DamageModifier type="NULL" />
+			<bShownOnWheel value="false" />
+			<CreateObject value="true" />
+			<HudDamage value="0" />
+			<HudSpeed value="0" />
+			<HudCapacity value="0" />
+			<HudAccuracy value="0" />
+			<HudRange value="0" />
+			<ClipSize value="10" />
+			<ReloadData ref="RELOAD_DEFAULT" />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_TOMSNIPER_SUPP</Name>
+			<Model>w_at_tomsniper_supp</Model>
+			<LocName>WCT_SUPP</LocName>
+			<LocDesc>WCD_SR_SUPP</LocDesc>
+			<AttachBone>AAPSupp</AttachBone>
+			<AccuracyModifier type="NULL" />
+			<DamageModifier type="NULL" />
+			<bShownOnWheel value="true" />
+			<CreateObject value="true" />
+			<HudDamage value="-5" />
+			<HudSpeed value="0" />
+			<HudCapacity value="0" />
+			<HudAccuracy value="0" />
+			<HudRange value="-5" />
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_pistol_silencer</FlashFx>
+		</Item>
+		<Item type="CWeaponComponentScopeInfo">
+			<Name>COMPONENT_TOMSNIPER_SCOPE</Name>
+			<Model>w_at_tomsniper_scope</Model>
+			<LocName>WCT_SCOPE_MAX</LocName>
+			<LocDesc>WCD_SCOPE_MAX</LocDesc>
+			<AttachBone>AAPScop</AttachBone>
+			<AccuracyModifier type="NULL" />
+			<DamageModifier type="NULL" />
+			<bShownOnWheel value="true" />
+			<CreateObject value="true" />
+			<HudDamage value="0" />
+			<HudSpeed value="0" />
+			<HudCapacity value="0" />
+			<HudAccuracy value="10" />
+			<HudRange value="0" />
+			<CameraHash>SNIPER_AIM_CAMERA</CameraHash>
+			<ExtraZoomFactorForAccurateMode value="0.000000" />
+			<ReticuleHash>SNIPER_MAX</ReticuleHash>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_TOMSNIPER_BARREL</Name>
+			<Model>w_at_tomsniper_barrel</Model>
+			<LocName>WCT_BARR2</LocName>
+			<LocDesc>WCD_BARR2</LocDesc>
+			<AttachBone>AAPBarrel</AttachBone>
+			<AccuracyModifier type="NULL" />
+			<DamageModifier type="NULL" />
+			<FallOffModifier type="CWeaponFallOffModifier">
+			  <RangeModifier value="1.000000" />
+			  <DamageModifier value="1.000000" />
+			</FallOffModifier>
+			<bShownOnWheel value="true" />
+			<CreateObject value="true" />
+			<ApplyWeaponTint value="true" />
+			<HudDamage value="0" />
+			<HudSpeed value="0" />
+			<HudCapacity value="0" />
+			<HudAccuracy value="0" />
+			<HudRange value="5" />
+		  </Item>
+    </Infos>
+	<InfoBlobName>TomDev Sniper</InfoBlobName>
+</CWeaponComponentInfoBlob>

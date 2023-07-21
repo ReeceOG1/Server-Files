@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponComponentInfoBlob>
+  <Infos>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_REMINGTON870_CLIP_01</Name>
+      <Model>w_sg_remington870_shell</Model>
+      <LocName>WCT_SHELL</LocName>
+      <LocDesc>WCD_SHELL</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="8" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_REMINGTON870_STOCK_01</Name>
+      <Model>w_sg_remington870_stock</Model>
+      <LocName>STOCK</LocName>
+      <LocDesc>STOCK</LocDesc>
+      <AttachBone>AAPStock</AttachBone>
+      <AccuracyModifier type="NULL"/>
+      <DamageModifier type="NULL"/>
+      <bShownOnWheel value="false"/>
+      <CreateObject value="true"/>
+      <HudDamage value="0"/>
+      <HudSpeed value="0"/>
+      <HudCapacity value="0"/>
+      <HudAccuracy value="0"/>
+      <HudRange value="0"/>
+    </Item>
+    <Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_REMINGTON870_TUBE_01</Name>
+			<Model>w_sg_remington870_tube</Model>
+			<LocName>TUBE</LocName>
+			<LocDesc>TUBE</LocDesc>
+			<AttachBone>AAPGrip_2</AttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+      <HudRange value="0"/>
+		</Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_REMINGTON870_BARREL_01</Name>
+      <Model>w_sg_remington870_barrel</Model>
+      <LocName>BARREL</LocName>
+      <LocDesc>BARREL</LocDesc>
+      <AttachBone>AAPGrip</AttachBone>
+      <AccuracyModifier type="NULL"/>
+      <DamageModifier type="NULL"/>
+      <bShownOnWheel value="false"/>
+      <CreateObject value="true"/>
+      <HudDamage value="0"/>
+      <HudSpeed value="0"/>
+      <HudCapacity value="0"/>
+      <HudAccuracy value="0"/>
+      <HudRange value="0"/>
+    </Item>
+    <Item type="CWeaponComponentScopeInfo">
+      <Name>COMPONENT_REMINGTON870_SCOPE_01</Name>
+      <Model>w_at_remington870_scope</Model>
+      <LocName>WCT_SCOPE_MED</LocName>
+      <LocDesc>WCD_SCOPE_MED</LocDesc>
+      <AttachBone>AAPScop</AttachBone>
+      <AccuracyModifier type="NULL"/>
+      <DamageModifier type="NULL"/>
+      <bShownOnWheel value="true"/>
+      <CreateObject value="true"/>
+      <HudDamage value="0"/>
+      <HudSpeed value="0"/>
+      <HudCapacity value="0"/>
+      <HudAccuracy value="5"/>
+      <HudRange value="0"/>
+      <CameraHash/>
+      <Reticule value="0"/>
+      <ReticuleHash/>
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_REMINGTON870_SUPP_01</Name>
+      <Model>w_at_remington870_supp</Model>
+      <LocName>SUPPRESSOR</LocName>
+      <LocDesc>SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <AccuracyModifier type="NULL"/>
+      <bShownOnWheel value="true"/>
+      <CreateObject value="true"/>
+      <HudDamage value="0"/>
+      <HudSpeed value="0"/>
+      <HudCapacity value="0"/>
+      <HudAccuracy value="0"/>
+      <HudRange value="0"/>
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="true" />
+    </Item>
+    <Item type="CWeaponComponentFlashLightInfo">
+      <Name>COMPONENT_REMINGTON870_FLSH_01</Name>
+      <Model>w_at_remington870_flsh</Model>
+      <LocName>WCT_FLASH</LocName>
+      <LocDesc>WCD_FLASH</LocDesc>
+      <AttachBone>AAPFlsh</AttachBone>
+      <AccuracyModifier type="NULL"/>
+      <DamageModifier type="NULL"/>
+      <bShownOnWheel value="true"/>
+      <CreateObject value="true"/>
+      <HudDamage value="0"/>
+      <HudSpeed value="0"/>
+      <HudCapacity value="0"/>
+      <HudAccuracy value="0"/>
+      <HudRange value="0"/>
+      <MainLightIntensity value="6.000000"/>
+      <MainLightColor value="0x00FFFFFF"/>
+      <MainLightRange value="20.000000"/>
+      <MainLightFalloffExponent value="32.000000"/>
+      <MainLightInnerAngle value="0.000000"/>
+      <MainLightOuterAngle value="20.000000"/>
+      <MainLightCoronaIntensity value="3.000000"/>
+      <MainLightCoronaSize value="0.200000"/>
+      <MainLightVolumeIntensity value="0.120000"/>
+      <MainLightVolumeSize value="0.030000"/>
+      <MainLightVolumeExponent value="0.010000"/>
+      <MainLightVolumeOuterColor value="0x00FFFFFF"/>
+      <MainLightShadowFadeDistance value="15.000000"/>
+      <MainLightSpecularFadeDistance value="15.000000"/>
+      <SecondaryLightIntensity value="4.000000"/>
+      <SecondaryLightColor value="0x00FFFFFF"/>
+      <SecondaryLightRange value="6.000000"/>
+      <SecondaryLightFalloffExponent value="64.000000"/>
+      <SecondaryLightInnerAngle value="0.000000"/>
+      <SecondaryLightOuterAngle value="60.000000"/>
+      <SecondaryLightVolumeIntensity value="0.300000"/>
+      <SecondaryLightVolumeSize value="0.400000"/>
+      <SecondaryLightVolumeExponent value="24.000000"/>
+      <SecondaryLightVolumeOuterColor value="0x00FFFFFF"/>
+      <SecondaryLightFadeDistance value="10.000000"/>
+      <fTargetDistalongAimCamera value="8.000000"/>
+      <FlashLightBone>Gun_FLMuzzle</FlashLightBone>
+      <FlashLightBoneBulbOn>Bulb_On</FlashLightBoneBulbOn>
+      <FlashLightBoneBulbOff>Bulb_Off</FlashLightBoneBulbOff>
+    </Item>
+  </Infos>
+  <InfoBlobName>Core Game</InfoBlobName>
+</CWeaponComponentInfoBlob>

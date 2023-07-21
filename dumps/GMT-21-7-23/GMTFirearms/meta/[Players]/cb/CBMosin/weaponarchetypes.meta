@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+		  <modelName>w_sr_cbmosin</modelName>
+		  <txdName>w_sr_cbmosin</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="200"/>
+		</Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

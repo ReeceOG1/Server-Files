@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponComponentInfoBlob>
+	<Infos>
+        <Item type="CWeaponComponentClipInfo">
+            <Name>COMPONENT_ASHYSCARHDMR_CLIP_01</Name>
+            <Model>w_sr_ashyscarhdmr_mag1</Model>
+            <LocName>WCT_CLIP1</LocName>
+            <LocDesc>WCD_MKRF_CLIP1</LocDesc>
+            <AttachBone>AAPClip</AttachBone>
+            <AccuracyModifier type="NULL" />
+            <DamageModifier type="NULL" />
+            <bShownOnWheel value="false" />
+            <CreateObject value="true" />
+            <HudDamage value="0" />
+            <HudSpeed value="0" />
+            <HudCapacity value="0" />
+            <HudAccuracy value="0" />
+            <HudRange value="0" />
+            <ClipSize value="8" />
+            <ReloadData ref="RELOAD_DEFAULT" />
+        </Item>
+        <Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_AT_ASHYSCARHDMR_SUPP</Name>
+			<Model>w_at_ar_supp_02</Model>
+			<LocName>WCT_SUPP</LocName>
+			<LocDesc>WCD_AR_SUPP2</LocDesc>
+			<AttachBone>AAPSupp</AttachBone>
+			<AccuracyModifier type="NULL" />
+			<DamageModifier type="NULL" />
+			<bShownOnWheel value="true" />
+			<CreateObject value="true" />
+			<HudDamage value="-5" />
+			<HudSpeed value="0" />
+			<HudCapacity value="0" />
+			<HudAccuracy value="0" />
+			<HudRange value="-5" />
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_pistol_silencer</FlashFx>
+		</Item>
+        <Item type="CWeaponComponentScopeInfo">
+            <Name>COMPONENT_AT_ASHYSCARHDMR_SCOPE_LARGE</Name>
+            <Model>w_at_ashyscarhdmr_scope</Model>
+            <LocName>WCT_SCOPE_LRG</LocName>
+            <LocDesc>WCD_SCOPE_LRG</LocDesc>
+            <AttachBone>AAPScop</AttachBone>
+            <AccuracyModifier type="NULL" />
+            <DamageModifier type="NULL" />
+            <bShownOnWheel value="true" />
+            <CreateObject value="true" />
+            <HudDamage value="0" />
+            <HudSpeed value="0" />
+            <HudCapacity value="0" />
+            <HudAccuracy value="5" />
+            <HudRange value="0" />
+            <CameraHash>SNIPER_LOW_ZOOM_AIM_CAMERA</CameraHash>
+            <ExtraZoomFactorForAccurateMode value="0.000000" />
+            <ReticuleHash>SNIPER_LARGE</ReticuleHash>
+        </Item>
+    </Infos>
+	<InfoBlobName>gmt template</InfoBlobName>
+</CWeaponComponentInfoBlob>

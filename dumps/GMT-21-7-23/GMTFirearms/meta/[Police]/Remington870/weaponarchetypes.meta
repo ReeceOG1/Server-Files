@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+			<modelName>w_sg_remington870</modelName>
+			<txdName>w_sg_remington870</txdName>
+			<ptfxAssetName></ptfxAssetName>
+			<lodDist value="300"/>
+		</Item>
+		<Item>
+			<modelName>w_sg_remington870_shell</modelName>
+			<txdName>w_sg_remington870_shell</txdName>
+			<ptfxAssetName></ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>w_sg_remington870_stock</modelName>
+			<txdName>w_sg_remington870</txdName>
+			<ptfxAssetName></ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>w_sg_remington870_tube</modelName>
+			<txdName>w_sg_remington870</txdName>
+			<ptfxAssetName></ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>w_sg_remington870_barrel</modelName>
+			<txdName>w_sg_remington870</txdName>
+			<ptfxAssetName></ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>w_at_remington870_scope</modelName>
+			<txdName>w_sg_remington870_attachments</txdName>
+			<ptfxAssetName></ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>w_at_remington870_supp</modelName>
+			<txdName>w_sg_remington870_attachments</txdName>
+			<ptfxAssetName></ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>w_at_remington870_flsh</modelName>
+			<txdName>w_sg_remington870_attachments</txdName>
+			<ptfxAssetName></ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

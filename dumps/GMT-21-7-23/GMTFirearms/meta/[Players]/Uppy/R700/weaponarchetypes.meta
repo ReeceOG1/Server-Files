@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+		  <modelName>w_sr_uppyr700</modelName>
+		  <txdName>w_sr_uppyr700</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="500"/>
+		</Item>
+		<Item>
+		  <modelName>w_sr_uppyr700_barrel</modelName>
+		  <txdName>w_sr_uppyr700_barrel</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="100"/>
+		</Item>
+		<Item>
+			<modelName>w_sr_uppyr700_muzzle</modelName>
+			<txdName>w_sr_uppyr700_muzzle</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="100"/>
+		  </Item>
+		  <Item>
+			<modelName>w_sr_uppyr700_stock</modelName>
+			<txdName>w_sr_uppyr700_stock</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="100"/>
+		  </Item>
+		  <Item>
+			<modelName>w_sr_uppyr700_mag</modelName>
+			<txdName>w_sr_uppyr700_mag</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="100"/>
+		  </Item>
+		  <Item>
+			<modelName>w_at_uppyr700_scope</modelName>
+			<txdName>w_at_uppyr700_scope</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="100"/>
+		  </Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

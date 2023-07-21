@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+		  <modelName>w_sb_markompx</modelName>
+		  <txdName>w_sb_markompx</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="500"/>
+		</Item>
+		<Item>
+		  <modelName>w_sb_markompx_mag2</modelName>
+		  <txdName>w_sb_markompx_mags</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="100"/>
+		</Item>
+		<Item>
+		  <modelName>w_sb_markompx_stock2</modelName>
+		  <txdName>w_sb_markompx_stocks</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="100"/>
+		</Item>
+		<Item>
+			<modelName>w_sb_markompx_barrel2</modelName>
+			<txdName>w_sb_markompx_barrels</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="100"/>
+		</Item>
+		<Item>
+			<modelName>w_at_markompx_scope3</modelName>
+			<txdName>w_at_markompx_scopes</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="100"/>
+		</Item>
+		<Item>
+			<modelName>w_at_markompx_handguard3</modelName>
+			<txdName>w_at_markompx_handguards</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="100"/>
+		</Item>
+		<Item>
+			<modelName>w_at_markompx_flash4</modelName>
+			<txdName>w_at_markompx_flash</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="100"/>
+		</Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

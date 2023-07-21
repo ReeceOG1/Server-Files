@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+            <modelName>w_sr_tomsniper</modelName>
+            <txdName>w_sr_tomsniper</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+        <Item>
+            <modelName>w_sr_tomsniper_back</modelName>
+            <txdName>w_sr_tomsniper_back</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+        <Item>
+            <modelName>w_sr_tomsniper_mag1</modelName>
+            <txdName>w_sr_tomsniper_mag1</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+        <Item>
+            <modelName>w_sr_tomsniper_mag2</modelName>
+            <txdName>w_sr_tomsniper_mag2</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+		<Item>
+            <modelName>w_at_tomsniper_supp</modelName>
+            <txdName>w_at_tomsniper_supp</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+		<Item>
+            <modelName>w_at_tomsniper_scope</modelName>
+            <txdName>w_at_tomsniper_scope</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+		<Item>
+            <modelName>w_at_tomsniper_barrel</modelName>
+            <txdName>w_at_tomsniper_barrel</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="50"/>
+        </Item>
+		<Item>
+            <modelName>w_at_tomsniper_camo1</modelName>
+            <txdName>w_at_tomsniper_camo1</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+        <Item>
+            <modelName>w_at_tomsniper_camo2</modelName>
+            <txdName>w_at_tomsniper_camo2</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+        <Item>
+            <modelName>w_at_tomsniper_camo3</modelName>
+            <txdName>w_at_tomsniper_camo3</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+        <Item>
+            <modelName>w_at_tomsniper_camo4</modelName>
+            <txdName>w_at_tomsniper_camo4</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+        <Item>
+            <modelName>w_at_tomsniper_camo5</modelName>
+            <txdName>w_at_tomsniper_camo5</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+        <Item>
+            <modelName>w_at_tomsniper_camo6</modelName>
+            <txdName>w_at_tomsniper_camo6</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+        <Item>
+            <modelName>w_at_tomsniper_camo7</modelName>
+            <txdName>w_at_tomsniper_camo7</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+        <Item>
+            <modelName>w_at_tomsniper_camo8</modelName>
+            <txdName>w_at_tomsniper_camo8</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+        <Item>
+            <modelName>w_at_tomsniper_camo9</modelName>
+            <txdName>w_at_tomsniper_camo9</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+        <Item>
+            <modelName>w_at_tomsniper_camo10</modelName>
+            <txdName>w_at_tomsniper_camo10</txdName>
+            <ptfxAssetName>null</ptfxAssetName>
+            <lodDist value="30"/>
+        </Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

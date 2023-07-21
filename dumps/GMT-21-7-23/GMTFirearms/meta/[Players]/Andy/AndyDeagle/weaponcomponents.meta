@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponComponentInfoBlob>
+	<Infos>
+        <Item type="CWeaponComponentClipInfo">
+            <Name>COMPONENT_ANDYDEAGLE_CLIP_01</Name>
+            <Model>w_pi_andydeagle_mag1</Model>
+            <LocName>WCT_CLIP1</LocName>
+            <LocDesc>WCD_P50_CLIP1</LocDesc>
+            <AttachBone>AAPClip</AttachBone>
+            <AccuracyModifier type="NULL" />
+            <DamageModifier type="NULL" />
+            <bShownOnWheel value="false" />
+            <CreateObject value="true" />
+            <HudDamage value="0" />
+            <HudSpeed value="0" />
+            <HudCapacity value="0" />
+            <HudAccuracy value="0" />
+            <HudRange value="0" />
+            <ClipSize value="9" />
+            <ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES" />
+        </Item>
+        <Item type="CWeaponComponentScopeInfo">
+			<Name>COMPONENT_ANDYDEAGLE_SCOPE_01</Name>
+			<Model>w_at_andydeagle_scope</Model>
+			<LocName>WCT_SCOPE_MED</LocName>
+			<LocDesc>WCD_SCOPE_MED</LocDesc>
+			<AttachBone>AAPScop</AttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+			<CameraHash/>
+			<RecoilShakeAmplitude value="0.280000"/>
+			<Reticule value="0"/>
+			<ReticuleHash/>
+		</Item>
+    </Infos>
+	<InfoBlobName>gmt template</InfoBlobName>
+</CWeaponComponentInfoBlob>

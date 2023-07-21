@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponComponentInfoBlob>
+	<Infos>
+		<Item type="CWeaponComponentClipInfo">
+			<Name>COMPONENT_MARKOMPX_CLIP_02</Name>
+			<Model>w_sb_markompx_mag2</Model>
+			<LocName>WCT_CLIP1</LocName>
+			<LocDesc>WCD_SMG_CLIP1</LocDesc>
+			<AttachBone>AAPClip</AttachBone>
+			<AccuracyModifier type="NULL" />
+			<DamageModifier type="NULL" />
+			<bShownOnWheel value="false" />
+			<CreateObject value="true" />
+			<HudDamage value="0" />
+			<HudSpeed value="0" />
+			<HudCapacity value="0" />
+			<HudAccuracy value="0" />
+			<HudRange value="0" />
+			<ClipSize value="30" />
+			<ReloadData ref="RELOAD_DEFAULT" />
+		</Item>
+		<Item type="CWeaponComponentInfo">
+            <Name>COMPONENT_MARKOMPX_STOCK_02</Name>
+            <Model>w_sb_markompx_stock2</Model>
+            <LocName>STOCK</LocName>
+            <LocDesc>STOCK</LocDesc>
+            <AttachBone>AAPStock</AttachBone>
+            <AccuracyModifier type="NULL"/>
+            <DamageModifier type="NULL"/>
+            <bShownOnWheel value="true"/>
+            <CreateObject value="true"/>
+            <HudDamage value="0"/>
+            <HudSpeed value="0"/>
+            <HudCapacity value="0"/>
+            <HudAccuracy value="0"/>
+            <HudRange value="0"/>
+        </Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_MARKOMPX_BARREL_02</Name>
+			<Model>w_sb_markompx_barrel2</Model>
+			<LocName>BARREL</LocName>
+			<LocDesc>BARREL</LocDesc>
+			<AttachBone>AAPSupp</AttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+		</Item>
+		<Item type="CWeaponComponentScopeInfo">
+			<Name>COMPONENT_MARKOMPX_SCOPE_03</Name>
+			<Model>w_at_markompx_scope3</Model>
+			<LocName>WCT_SCOPE_MED</LocName>
+			<LocDesc>WCD_SCOPE_MED</LocDesc>
+			<AttachBone>AAPScop</AttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<CameraHash/>
+			<RecoilShakeAmplitude value="0.280000"/>
+			<ExtraZoomFactorForAccurateMode value="1.200000"/>
+			<Reticule value="0"/>
+			<ReticuleHash/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_MARKOMPX_HANDGUARD_03</Name>
+			<Model>w_at_markompx_handguard3</Model>
+			<LocName>HANDGUARD</LocName>
+			<LocDesc>HANDGUARD</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentFlashLightInfo">
+			<Name>COMPONENT_MARKOMPX_FLSH_04</Name>
+			<Model>w_at_markompx_flash4</Model>
+			<LocName>WCT_FLASH</LocName>
+			<LocDesc>WCD_FLASH</LocDesc>
+			<AttachBone>AAPFlsh</AttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<MainLightIntensity value="6.000000"/>
+			<MainLightColor value="0x00FFFFFF"/>
+			<MainLightRange value="20.000000"/>
+			<MainLightFalloffExponent value="32.000000"/>
+			<MainLightInnerAngle value="0.000000"/>
+			<MainLightOuterAngle value="20.000000"/>
+			<MainLightCoronaIntensity value="3.000000"/>
+			<MainLightCoronaSize value="0.200000"/>
+			<MainLightVolumeIntensity value="0.120000"/>
+			<MainLightVolumeSize value="0.030000"/>
+			<MainLightVolumeExponent value="0.010000"/>
+			<MainLightVolumeOuterColor value="0x00FFFFFF"/>
+			<MainLightShadowFadeDistance value="15.000000"/>
+			<MainLightSpecularFadeDistance value="15.000000"/>
+			<SecondaryLightIntensity value="4.000000"/>
+			<SecondaryLightColor value="0x00FFFFFF"/>
+			<SecondaryLightRange value="6.000000"/>
+			<SecondaryLightFalloffExponent value="64.000000"/>
+			<SecondaryLightInnerAngle value="0.000000"/>
+			<SecondaryLightOuterAngle value="60.000000"/>
+			<SecondaryLightVolumeIntensity value="0.300000"/>
+			<SecondaryLightVolumeSize value="0.400000"/>
+			<SecondaryLightVolumeExponent value="24.000000"/>
+			<SecondaryLightVolumeOuterColor value="0x00FFFFFF"/>
+			<SecondaryLightFadeDistance value="10.000000"/>
+			<fTargetDistalongAimCamera value="8.000000"/>
+			<FlashLightBone>Gun_FLMuzzle</FlashLightBone>
+			<FlashLightBoneBulbOn>Bulb_On</FlashLightBoneBulbOn>
+			<FlashLightBoneBulbOff>Bulb_Off</FlashLightBoneBulbOff>
+		</Item>
+    </Infos>
+	<InfoBlobName>gmt template</InfoBlobName>
+</CWeaponComponentInfoBlob>
