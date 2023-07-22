@@ -1,6 +1,8 @@
-hey guys this is how to delete big boats at rig
+-- hey guys this is how to delete big boats at rig
 
-@TomDevCMG please use this when Kimber imports about 20 of em thanks
+-- @TomDevCMG please use this when Kimber imports about 20 of em thanks
+
+-- also when is big rubbertoe sending me the form to fill out to be a check mate gaming developer
 
 local function delQM2()
     local f = tARMA.getPlayerVehicle()
