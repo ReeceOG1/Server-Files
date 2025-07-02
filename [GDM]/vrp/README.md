@@ -1,2 +1,0 @@
-# vrp
-Global Deathmatch vRP
